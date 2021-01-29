@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+/* GENERAL */
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    font-family: 'Yusei Magic', sans-serif;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+section {
+    min-height: 100vh;
+    padding: 0px 100px;
+}
+
+/* NAV */
+nav {
+    width: 100%;
+    height: 100px;
+    padding: 15px 50px;
+    background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    transition: all 0.6s;
+    color: #fff;
+}
+
+nav img {
+    width: 70px;
+    height: 70px;
+    /* transform: scale(1); */
+}
+
+nav div ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav div ul li {
+    margin-left: 30px;
+}
+
+/* HOME */
+#Home {
+    background-color: #CCC;
+    height: calc(100vh - 100px);
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Home p {
+    text-align: justify;
+    margin-left: 50px;
+}
+
+#Home img {
+    height: 550px;
+}
+
+/* SINGLES */
+#Singles {
+    background-color: #AAA;
+}
+
+.singles-container img {
+    height: 250px;
+}
